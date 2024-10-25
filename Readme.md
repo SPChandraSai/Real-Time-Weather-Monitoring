@@ -65,7 +65,3 @@ This project is a **Real-Time Weather Monitoring System** that retrieves weather
 - **WeatherAPI**: [WeatherAPI](https://www.weatherapi.com/) is used to fetch real-time weather data.
 - **Web Server**: To serve the frontend, you can use any simple web server like `http-server` or host via Docker.
 - **Local Storage**: Used for persisting daily weather summaries on the client-side.
-
----
-
-This should cover everything you need for the submission. Let me know if you'd like to make further changes!
