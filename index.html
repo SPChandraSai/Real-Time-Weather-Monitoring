@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accurate Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="input-container">
+            <input type="text" id="locationInput" placeholder="Enter Location">
+            <button id="search">Search</button>
+        </div>
+        <div class="threshold-container">
+            <label for="thresholdInput">Temperature Alert Threshold (°C):</label>
+            <input type="number" id="thresholdInput" placeholder="Enter Threshold">
+        </div>
+        <div class="temp-toggle">
+            <button id="tempToggle">Switch to Fahrenheit</button> <!-- Temperature toggle button -->
+        </div>
+    </header>
+    <main>
+        <div class="weather-container">
+            <div class="temperature"></div>
+            <div class="location-date">
+                <div class="location"></div>
+                <span class="Time"></span>
+                <span class="Day"></span>
+                <span class="Date"></span>
+                <br>
+                <span class="feelsLike"></span>
+            </div>
+            <div class="weather-state">
+            </div>
+            <div id="alertMessage"></div>
+        </div>
+
+        <!-- Section for Daily Weather Summary -->
+        <section id="dailySummaryContainer">
+            <h2>Daily Weather Summary</h2>
+            <div id="summaryDisplay"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

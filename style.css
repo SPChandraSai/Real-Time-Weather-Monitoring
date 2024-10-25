@@ -1,0 +1,47 @@
+html {
+    font-family: sans-serif;
+}
+
+header {
+    height: 120px;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+main {
+    background-color: darkgrey;
+    padding: 20px;
+    color: white;
+}
+
+.weather-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#dailySummaryContainer {
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#summaryDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.summary-item {
+    background-color: #505050;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.temp-toggle {
+    margin-left: 20px;
+}
